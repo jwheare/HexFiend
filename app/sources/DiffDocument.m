@@ -11,7 +11,7 @@
 #import "HFDocumentOperationView.h"
 #import "DiffTextViewContainer.h"
 #import "HFBinaryTemplateRepresenter.h"
-#import <HexFiend/HexFiend.h>
+@import HexFiendObjC;
 
 @interface DiffDocument (ForwardDeclarations)
 - (void)setFocusedInstructionIndex:(NSUInteger)index scroll:(BOOL)alsoScrollToIt;
